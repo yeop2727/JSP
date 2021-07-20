@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#header{
+	padding-top:1px;
+	color:white;
+	height:70px;
+	background:#633A00;
+	text-align:center;
+}
+#index{
+	padding-top:10px;
+	padding-left:30px;
+	height:30px;
+	color:white;
+	background:#F3CA5A;
+}
+#title{
+	text-align:center;
+}
+#content{
+	height:350px;
+	background:#E8DAB3;
+}
+#footer{
+	padding-top:25px;
+	height:35px;
+	text-align:center;
+	color:white;
+	background:#463811;
+}
+#table1{
+	border : 1px solid black;
+	width  : 500px;
+	height : 300px;
+	margin : auto;
+}
+tr,td{
+	border : 1px solid black;
+}
+
+A:link{color:#FFFFFF; text-decoration:none;} <!--방문전-->
+A:visited{color:#FFFFFF; text-decoration:none;} 
+A:active{color:#FFFFFF; text-decoration:none;}  <!--클릭시-->
+A:hover{color:#000000; text-decoration:underline;}
